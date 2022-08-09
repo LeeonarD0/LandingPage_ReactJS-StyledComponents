@@ -7,6 +7,7 @@ export let GlobalStyle = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;800&display=swap');
 
 body {
+
     --yellow-sun: #F5D15F;
     --text: #FFF;
     --button: #E85937;
@@ -30,7 +31,7 @@ body {
     --earth: ;
 
      /* Fonts */
-    --font-display: 800 ${pixelToRem(62)}/${pixelToRem(96)} "Heebo", sans-serif;
+    --font-display: 800 ${pixelToRem(62)}/${pixelToRem(96)} "Bold", sans-serif;
     --font-heading-1: 700 ${pixelToRem(32)}/${pixelToRem(48)} "Heebo", sans-serif;
     --font-heading-2: 500 ${pixelToRem(24)}/${pixelToRem(32)} "Heebo", sans-serif;
     --font-heading-3: 400 ${pixelToRem(20)}/${pixelToRem(24)} "Heebo", sans-serif;
@@ -44,6 +45,8 @@ body {
 }
 
  body {
+  
    font-family: 'Heebo', sans-serif;
+   background: var(--space-dark);
  }
 `;
